@@ -1,0 +1,27 @@
+.apvist-details {
+  width: 100%;
+  background: var(--breakGray);
+  border-radius: 4px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: "Cairo";
+  font-size: 1rem;
+  position: relative;
+  text-align: right;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+.apvist-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.1em;
+  color: var(--primary);
+}
+.apvist-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: var(--white);
+}
+@media screen and (max-width: 900px) {
+  .apvist-details {
+    width: 80%;
+  }
+}

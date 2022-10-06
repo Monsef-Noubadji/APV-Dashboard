@@ -1,0 +1,31 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  column-gap: 2rem;
+}
+.nf {
+  padding: 10px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+.nf-p {
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.nf-l {
+  margin-top: 1rem;
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  transition: 0.3s ease;
+  border: 1px solid #000;
+  border-radius: 30px;
+}
+.nf-l:hover {
+  background-color: black;
+  color: #ffffff;
+}

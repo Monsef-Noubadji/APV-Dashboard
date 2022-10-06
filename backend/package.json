@@ -1,0 +1,30 @@
+{
+  "name": "apv-registration-app",
+  "version": "1.0.0",
+  "description": "apv web app to register new users",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "[MERN",
+    "beginner",
+    "web",
+    "dev",
+    "]"
+  ],
+  "author": "Monsef Noubadji",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.4",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}

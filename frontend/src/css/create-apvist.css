@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+* {
+  font-family: "Cairo";
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-family: "Cairo";
+  width: 100%;
+  height: 60%;
+  justify-content: center;
+  align-items: flex-end;
+  padding: 50px;
+  margin-top: 11%;
+  color: #fff;
+}
+h2 {
+  align-self: center;
+}
+label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+input,
+select,
+button {
+  width: 100%;
+  text-align: right;
+  border: none;
+  padding: 6px;
+  font-size: 0.8rem;
+  font-family: "Cairo";
+  background-color: var(--breakGray);
+  color: var(--primary);
+  transition: ease-in-out 0.1s;
+}
+input {
+  border-radius: 30px;
+  padding-right: 15px;
+}
+select:focus {
+  background-color: var(--primary);
+  color: var(--carbon);
+}
+
+button {
+  color: var(--primary);
+  border: 0.1rem solid #fff;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: 10px;
+  width: 80%;
+  align-self: center;
+  cursor: pointer;
+  padding: 13px 0;
+  border-radius: 30px;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: var(--primary);
+  color: #050505;
+  border-color: var(--primary);
+}
+.success-msg {
+  margin: 10px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 90%;
+  color: var(--primary);
+  background-color: var(--carbon);
+  border-left: 0.3rem solid var(--success);
+}
+span {
+  cursor: pointer;
+  font-size: 0.7rem;
+  margin: -2rem -3rem 0 0;
+}
+p {
+  margin-right: 2rem;
+}

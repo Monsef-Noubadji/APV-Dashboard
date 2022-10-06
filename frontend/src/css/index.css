@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Cairo";
+}
+:root {
+  --primary: rgb(217, 213, 0);
+  --error: rgb(206, 0, 41);
+}
