@@ -17,7 +17,7 @@ const CreateApvist = () => {
     e.preventDefault();
     const apvist = {firstname,lastname,email,generation,team};
     const req = {
-      url:"https://apv-dashboard-cjqpz1emi-monsef-noubadji.vercel.app/users/",
+      url:"https://apv-dashboard-cjqpz1emi-monsef-noubadji.vercel.app/",
       method:"POST",
       headers:{
         "Access-Control-Allow-Origin":"*",

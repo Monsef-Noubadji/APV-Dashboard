@@ -1,6 +1,6 @@
 {
+  "homepage": "https://apv-dashboard-cjqpz1emi-monsef-noubadji.vercel.app",
   "name": "frontend",
-  "proxy": "apv-dashboard-cjqpz1emi-monsef-noubadji.vercel.app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

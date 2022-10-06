@@ -17,7 +17,7 @@ const Home = () => {
     const abortController = new AbortController();
     const signal = abortController.signal;
     const fetchApvists = async () => {
-      const res = await axios.get('/users',{signal})
+      const res = await axios.get('/',{signal})
         setLoading(false)
         setApvists(res.data);
       return abortController.abort();

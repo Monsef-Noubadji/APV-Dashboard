@@ -15,14 +15,18 @@ app.disable('X-Powered-By');
 app.use(cors());
 
 //routes
-app.use('/users', userRoutes);
+app.use('/', require(path.join(__dirname, 'routes', 'userRoutes.js'));
 
-if(process.env.NODE_ENV === 'production') {
-    app.use(express.static('../frontend/build'));
-    app.get("*",(req,res)=>{
-        res.sendFile(path.resolve(__dirname + 'frontend' + 'build' + 'index.html'))
+if (process.env.NODE_ENV !== 'production') {
+    require('dotenv').config({path: __dirname+'/.env'});
+  }
+// static files (build of your frontend)
+if (process.env.NODE_ENV === 'production') {
+    app.use(express.static(path.join(__dirname, '../frontend', 'build')));
+    app.get('/*', (req, res) => {
+      res.sendFile(path.join(__dirname, '../frontend', 'build', 'index.html'));
     })
-}
+  }
 
 // DB connection
 connectDB();
