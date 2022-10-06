@@ -43,7 +43,7 @@ const Home = () => {
   return (
     <>
     <h2 className="welcome"> مرحبا بك في لوحة تحكم Algerian Positive Vibes 💛</h2>
-    <button className="scroll" onClick={handleUp}>⬆︎</button>
+    {/* <button className="scroll" onClick={handleUp}>⬆︎</button> */}
     <div className="home">
       <div className="recent">
         <h2 className="stats">إحصائيات 📈</h2>
