@@ -11,7 +11,7 @@ const home = async (req, res) => {
 const user = async (req, res) => {
     const id = req.params.id;
     if (!mongoose.Types.ObjectId.isValid(id)) {
-        return res.status(404).json({ "error": "Not a valid Query" });
+        return res.status(400).json({ "error": "Not a valid Query" });
     }
     try {
         const apvist = await APV.findById(id)
